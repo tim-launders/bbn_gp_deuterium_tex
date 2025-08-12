@@ -1,0 +1,112 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: gp_bbn_uncertainties.aux
+The style file: apsrev4-2.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: gp_bbn_uncertaintiesNotes.bib
+Database file #2: references.bib
+control{REVTEX42Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
+control{apsrev42Control}, control.key{N/A}, control.author{08}, control.editor{1}, control.title{0}, control.pages{0}, control.year{1}, control.eprint{N/A}, 
+Warning--jnrlst (dependency: not reversed) set 1
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+Control: key (0) 
+Control: author (8) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (0) allowed
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+"J. High Energy Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Giovanetti2024
+while executing---line 3515 of file apsrev4-2.bst
+"J. High Energ. Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Giovanetti2024
+while executing---line 3515 of file apsrev4-2.bst
+"JHEP" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Giovanetti2024
+while executing---line 3515 of file apsrev4-2.bst
+"Journal of Cosmology and Astroparticle Physics" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Giovanetti2024
+while executing---line 3515 of file apsrev4-2.bst
+"J. Cosmol. Astropart. Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Giovanetti2024
+while executing---line 3515 of file apsrev4-2.bst
+"JCAP" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Giovanetti2024
+while executing---line 3515 of file apsrev4-2.bst
+"Journal of Instrumentation" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Giovanetti2024
+while executing---line 3515 of file apsrev4-2.bst
+"J. Instrum." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Giovanetti2024
+while executing---line 3515 of file apsrev4-2.bst
+"JINST" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Giovanetti2024
+while executing---line 3515 of file apsrev4-2.bst
+"Journal of Statistical Mechanics" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Giovanetti2024
+while executing---line 3515 of file apsrev4-2.bst
+"J. of Stat. Mech." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Giovanetti2024
+while executing---line 3515 of file apsrev4-2.bst
+"J. Stat. Mech.: Theory Exp." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Giovanetti2024
+while executing---line 3515 of file apsrev4-2.bst
+"JSTAT" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Giovanetti2024
+while executing---line 3515 of file apsrev4-2.bst
+Warning--missing journal in Giovanetti2024
+Warning--missing number in Pisanti2021
+Warning--empty year in Arai2011
+You've used 10 entries,
+            6079 wiz_defined-function locations,
+            1698 strings with 16531 characters,
+and the built_in function-call counts, 9839 in all, are:
+= -- 607
+> -- 256
+< -- 78
++ -- 80
+- -- 76
+* -- 1557
+:= -- 899
+add.period$ -- 8
+call.type$ -- 10
+change.case$ -- 40
+chr.to.int$ -- 26
+cite$ -- 13
+duplicate$ -- 973
+empty$ -- 684
+format.name$ -- 136
+if$ -- 1912
+int.to.chr$ -- 1
+int.to.str$ -- 17
+missing$ -- 141
+newline$ -- 76
+num.names$ -- 24
+pop$ -- 400
+preamble$ -- 1
+purify$ -- 39
+quote$ -- 0
+skip$ -- 386
+stack$ -- 0
+substring$ -- 181
+swap$ -- 895
+text.length$ -- 28
+text.prefix$ -- 0
+top$ -- 10
+type$ -- 126
+warning$ -- 4
+while$ -- 33
+width$ -- 0
+write$ -- 122
+(There were 13 error messages)

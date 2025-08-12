@@ -1,0 +1,149 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{8}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Pitrou}\ \emph {et~al.}(2018)\citenamefont {Pitrou},
+  \citenamefont {Coc}, \citenamefont {Uzan},\ and\ \citenamefont
+  {Vangioni}}]{Pitrou2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Pitrou}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Coc}},
+  \bibinfo {author} {\bibfnamefont {J.-P.}\ \bibnamefont {Uzan}},\ and\
+  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Vangioni}},\ }\bibfield
+  {title} {\bibinfo {title} {{``Precision big bang nucleosynthesis with
+  improved Helium-4 predictions''}},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rept.}\ }\textbf {\bibinfo {volume} {754}},\
+  \bibinfo {pages} {1} (\bibinfo {year} {2018})},\ \Eprint
+  {https://arxiv.org/abs/1801.08023} {arXiv:1801.08023 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gariazzo}\ \emph {et~al.}(2022)\citenamefont
+  {Gariazzo}, \citenamefont {{de Salas}}, \citenamefont {Pisanti},\ and\
+  \citenamefont {Consiglio}}]{Gariazzo2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Gariazzo}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {{de
+  Salas}}}, \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont {Pisanti}},\
+  and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Consiglio}},\
+  }\bibfield  {title} {\bibinfo {title} {{``PArthENoPE revolutions''}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Computer Physics
+  Communications}\ }\textbf {\bibinfo {volume} {271}},\ \bibinfo {pages}
+  {108205} (\bibinfo {year} {2022})},\ \Eprint
+  {https://arxiv.org/abs/2103.05027} {arXiv:2103.05027 [astro-ph.IM]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Iliadis}(2015)}]{Iliadis2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Iliadis}},\ }\href@noop {} {\emph {\bibinfo {title} {Nuclear Physics of
+  Stars}}},\ \bibinfo {edition} {2nd}\ ed.\ (\bibinfo  {publisher}
+  {Wiley-VCH},\ \bibinfo {address} {Weinheim},\ \bibinfo {year}
+  {2015})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rasmussen}\ and\ \citenamefont
+  {Williams}(2006)}]{Rasmussen2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~E.}\ \bibnamefont
+  {Rasmussen}}\ and\ \bibinfo {author} {\bibfnamefont {C.~K.~I.}\ \bibnamefont
+  {Williams}},\ }\href@noop {} {\emph {\bibinfo {title} {Gaussian Processes for
+  Machine Learning}}}\ (\bibinfo  {publisher} {MIT Press},\ \bibinfo {address}
+  {Cambridge, MA},\ \bibinfo {year} {2006})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Giovanetti}\ \emph {et~al.}(2024)\citenamefont
+  {Giovanetti}, \citenamefont {Lisanti}, \citenamefont {Liu}, \citenamefont
+  {Mishra-Sharma},\ and\ \citenamefont {Ruderman}}]{Giovanetti2024}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Giovanetti}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Lisanti}},
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Liu}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Mishra-Sharma}},\ and\ \bibinfo {author}
+  {\bibfnamefont {J.~T.}\ \bibnamefont {Ruderman}},\ }\bibfield  {title}
+  {\bibinfo {title} {{``LINX: A Fast, Differentiable, and Extensible Big Bang
+  Nucleosynthesis Package''}},\ }\href@noop {} {\  (\bibinfo {year} {2024})},\
+  \Eprint {https://arxiv.org/abs/2408.14538} {arXiv:2408.14538 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pisanti}\ \emph {et~al.}(2021)\citenamefont
+  {Pisanti}, \citenamefont {Mangano}, \citenamefont {Miele},\ and\
+  \citenamefont {Mazzela}}]{Pisanti2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
+  {Pisanti}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Mangano}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Miele}},\ and\ \bibinfo
+  {author} {\bibfnamefont {P.}~\bibnamefont {Mazzela}},\ }\bibfield  {title}
+  {\bibinfo {title} {{``Primordial Deuterium after LUNA: concordances and error
+  budges''}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {JCAP}\ }\textbf {\bibinfo {volume} {04}},\ \bibinfo {pages} {020}},\ \Eprint
+  {https://arxiv.org/abs/2011.11537} {arXiv:2011.11537 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{I\~nesta G\'omez}}\ \emph
+  {et~al.}(2017)\citenamefont {{I\~nesta G\'omez}}, \citenamefont {Iliadis},\
+  and\ \citenamefont {Coc}}]{Inesta2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {{\'A}.}~\bibnamefont
+  {{I\~nesta G\'omez}}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Iliadis}},\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Coc}},\
+  }\bibfield  {title} {\bibinfo {title} {{``Bayesian estimation of
+  thermonuclear reaction rates for deuterium+deuterium reactions''}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Astrophys. J.}\
+  }\textbf {\bibinfo {volume} {849}},\ \bibinfo {pages} {134} (\bibinfo {year}
+  {2017})},\ \Eprint {https://arxiv.org/abs/1710.01647} {arXiv:1710.01647
+  [astro-ph.IM]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Arai}\ \emph {et~al.}()\citenamefont {Arai},
+  \citenamefont {Aoyama}, \citenamefont {Suzuki}, \citenamefont
+  {Descouvemont},\ and\ \citenamefont {Baye}}]{Arai2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Arai}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Aoyama}},
+  \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Suzuki}}, \bibinfo
+  {author} {\bibfnamefont {P.}~\bibnamefont {Descouvemont}},\ and\ \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {Baye}},\ }\bibfield  {title}
+  {\bibinfo {title} {{``Tensor force manifestations in \textit{ab initio} study
+  of the $^2$H($d$,$\gamma$)$^4$He, $^2$H($d$,$p$)$^3$H, and
+  $^2$H($d$,$n$)$^3$He reactions''}},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {107}},\
+  \bibinfo {pages} {132502}}\BibitemShut {NoStop}%
+\end{thebibliography}%
