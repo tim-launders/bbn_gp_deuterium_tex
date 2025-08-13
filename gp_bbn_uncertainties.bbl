@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{8}%
+\begin{thebibliography}{25}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -93,6 +93,14 @@
   {Williams}},\ }\href@noop {} {\emph {\bibinfo {title} {Gaussian Processes for
   Machine Learning}}}\ (\bibinfo  {publisher} {MIT Press},\ \bibinfo {address}
   {Cambridge, MA},\ \bibinfo {year} {2006})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kingma}\ and\ \citenamefont {Ba}(2017)}]{Kingma2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~P.}\ \bibnamefont
+  {Kingma}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Ba}},\
+  }\bibfield  {title} {\bibinfo {title} {{``Adam: a method for stochastic
+  optimization''}},\ }\href@noop {} {\  (\bibinfo {year} {2017})},\ \Eprint
+  {https://arxiv.org/abs/1412.6980} {arXiv:1412.6980 [cs.LG]} \BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Giovanetti}\ \emph {et~al.}(2024)\citenamefont
   {Giovanetti}, \citenamefont {Lisanti}, \citenamefont {Liu}, \citenamefont
   {Mishra-Sharma},\ and\ \citenamefont {Ruderman}}]{Giovanetti2024}%
@@ -106,32 +114,67 @@
   Nucleosynthesis Package''}},\ }\href@noop {} {\  (\bibinfo {year} {2024})},\
   \Eprint {https://arxiv.org/abs/2408.14538} {arXiv:2408.14538 [astro-ph.CO]}
   \BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Pisanti}\ \emph {et~al.}(2021)\citenamefont
-  {Pisanti}, \citenamefont {Mangano}, \citenamefont {Miele},\ and\
-  \citenamefont {Mazzela}}]{Pisanti2021}%
+\bibitem [{\citenamefont {Brown}\ and\ \citenamefont
+  {Jarmie}(1990)}]{Brown1990}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
-  {Pisanti}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Mangano}},
-  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Miele}},\ and\ \bibinfo
-  {author} {\bibfnamefont {P.}~\bibnamefont {Mazzela}},\ }\bibfield  {title}
-  {\bibinfo {title} {{``Primordial Deuterium after LUNA: concordances and error
-  budges''}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {JCAP}\ }\textbf {\bibinfo {volume} {04}},\ \bibinfo {pages} {020}},\ \Eprint
-  {https://arxiv.org/abs/2011.11537} {arXiv:2011.11537 [astro-ph.CO]}
-  \BibitemShut {NoStop}%
-\bibitem [{\citenamefont {{I\~nesta G\'omez}}\ \emph
-  {et~al.}(2017)\citenamefont {{I\~nesta G\'omez}}, \citenamefont {Iliadis},\
-  and\ \citenamefont {Coc}}]{Inesta2017}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~E.}\ \bibnamefont
+  {Brown}}\ and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Jarmie}},\
+  }\bibfield  {title} {\bibinfo {title} {{``Differential cross sections at low
+  energies for $^2$H($d$,$p$)$^3$H and $^2$H($d$,$n$)$^3$He''}},\ }\href@noop
+  {} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. C}\ }\textbf
+  {\bibinfo {volume} {41}},\ \bibinfo {pages} {1391} (\bibinfo {year}
+  {1990})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Krauss}\ \emph {et~al.}(1987)\citenamefont {Krauss},
+  \citenamefont {Becker}, \citenamefont {Trautvetter},\ and\ \citenamefont
+  {Rolfs}}]{Krauss1987}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {{\'A}.}~\bibnamefont
-  {{I\~nesta G\'omez}}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
-  {Iliadis}},\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Coc}},\
-  }\bibfield  {title} {\bibinfo {title} {{``Bayesian estimation of
-  thermonuclear reaction rates for deuterium+deuterium reactions''}},\
-  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Astrophys. J.}\
-  }\textbf {\bibinfo {volume} {849}},\ \bibinfo {pages} {134} (\bibinfo {year}
-  {2017})},\ \Eprint {https://arxiv.org/abs/1710.01647} {arXiv:1710.01647
-  [astro-ph.IM]} \BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Krauss}}, \bibinfo {author} {\bibfnamefont {H.~W.}\ \bibnamefont {Becker}},
+  \bibinfo {author} {\bibfnamefont {H.~P.}\ \bibnamefont {Trautvetter}},\ and\
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Rolfs}},\ }\bibfield
+  {title} {\bibinfo {title} {{``Low-energy fusion cross sections of $d$+$d$ and
+  $d$+$^3$He reactions''}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Nucl. Phys. A}\ }\textbf {\bibinfo {volume} {465}},\ \bibinfo
+  {pages} {150} (\bibinfo {year} {1987})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Schulte}\ \emph {et~al.}(1972)\citenamefont
+  {Schulte}, \citenamefont {Cosack}, \citenamefont {Obst},\ and\ \citenamefont
+  {Weil}}]{Schulte1972}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~L.}\ \bibnamefont
+  {Schulte}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Cosack}},
+  \bibinfo {author} {\bibfnamefont {A.~W.}\ \bibnamefont {Obst}},\ and\
+  \bibinfo {author} {\bibfnamefont {J.~L.}\ \bibnamefont {Weil}},\ }\bibfield
+  {title} {\bibinfo {title} {{``\,$^2$H+d reactions from 1.96 to 6.20 MeV''}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Phys. A}\
+  }\textbf {\bibinfo {volume} {192}},\ \bibinfo {pages} {609} (\bibinfo {year}
+  {1972})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Greife}\ \emph {et~al.}(1995)\citenamefont {Greife},
+  \citenamefont {Gorris}, \citenamefont {Junker}, \citenamefont {Rolfs},\ and\
+  \citenamefont {Zahnow}}]{Greife1995}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {U.}~\bibnamefont
+  {Greife}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Gorris}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Junker}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Rolfs}},\ and\ \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Zahnow}},\ }\bibfield  {title} {\bibinfo
+  {title} {{``Oppenheimer-Phillips effect and electron screening in $d$+$d$
+  fusion reactions''}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Z. Phys. A}\ }\textbf {\bibinfo {volume} {351}},\ \bibinfo {pages}
+  {107} (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Leonard}\ \emph {et~al.}(2006)\citenamefont
+  {Leonard}, \citenamefont {Karwowski}, \citenamefont {Brune}, \citenamefont
+  {Fisher},\ and\ \citenamefont {Ludwig}}]{Leonard2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~S.}\ \bibnamefont
+  {Leonard}}, \bibinfo {author} {\bibfnamefont {H.~J.}\ \bibnamefont
+  {Karwowski}}, \bibinfo {author} {\bibfnamefont {C.~R.}\ \bibnamefont
+  {Brune}}, \bibinfo {author} {\bibfnamefont {B.~M.}\ \bibnamefont {Fisher}},\
+  and\ \bibinfo {author} {\bibfnamefont {E.~J.}\ \bibnamefont {Ludwig}},\
+  }\bibfield  {title} {\bibinfo {title} {{``Precision measurements of
+  $^2$H($d$,$p$)$^3$He and $^2$H($d$,$n$)$^3$He total cross sections at
+  Big-Bang nucleosynthesis energies''}},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. C}\ }\textbf {\bibinfo {volume} {73}},\
+  \bibinfo {pages} {045801} (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Arai}\ \emph {et~al.}()\citenamefont {Arai},
   \citenamefont {Aoyama}, \citenamefont {Suzuki}, \citenamefont
   {Descouvemont},\ and\ \citenamefont {Baye}}]{Arai2011}%
@@ -146,4 +189,175 @@
   $^2$H($d$,$n$)$^3$He reactions''}},\ }\href@noop {} {\bibfield  {journal}
   {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {107}},\
   \bibinfo {pages} {132502}}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Casella \textit{et al.}}}(2002)}]{Casella2002}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {{Casella \textit{et al.}}}},\ }\bibfield  {title} {\bibinfo {title}
+  {{``First measurement of the $d$($p$,$\gamma$)$^3$He cross section down to
+  the solar Gamow peak''}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Nucl. Phys. A}\ }\textbf {\bibinfo {volume} {706}},\ \bibinfo
+  {pages} {203} (\bibinfo {year} {2002})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Mossa \textit{et al.}}}(2020)}]{Mossa2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {{Mossa \textit{et al.}}}},\ }\bibfield  {title} {\bibinfo {title} {{``The
+  baryon density of the Universe from an improved rate of deuterium
+  burning''}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nature}\ }\textbf {\bibinfo {volume} {587}},\ \bibinfo {pages} {210}
+  (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Griffiths}\ \emph {et~al.}(1962)\citenamefont
+  {Griffiths}, \citenamefont {Larson},\ and\ \citenamefont
+  {Robertson}}]{Griffiths1962}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~M.}\ \bibnamefont
+  {Griffiths}}, \bibinfo {author} {\bibfnamefont {E.~A.}\ \bibnamefont
+  {Larson}},\ and\ \bibinfo {author} {\bibfnamefont {L.~P.}\ \bibnamefont
+  {Robertson}},\ }\bibfield  {title} {\bibinfo {title} {{``The capture of
+  protons by deuterons''}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Can. J. Phys.}\ }\textbf {\bibinfo {volume} {40}},\ \bibinfo
+  {pages} {402} (\bibinfo {year} {1962})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Griffiths}\ \emph {et~al.}(1963)\citenamefont
+  {Griffiths}, \citenamefont {Lal},\ and\ \citenamefont
+  {Scarfe}}]{Griffiths1963}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~M.}\ \bibnamefont
+  {Griffiths}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Lal}},\
+  and\ \bibinfo {author} {\bibfnamefont {C.~D.}\ \bibnamefont {Scarfe}},\
+  }\bibfield  {title} {\bibinfo {title} {{``The reaction D($p$,$\gamma$)He$^3$
+  below 50 keV''}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Can. J. Phys.}\ }\textbf {\bibinfo {volume} {41}},\ \bibinfo {pages} {724}
+  (\bibinfo {year} {1963})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Warren}\ \emph {et~al.}(1963)\citenamefont {Warren},
+  \citenamefont {Erdman}, \citenamefont {Robertson}, \citenamefont {Axen},\
+  and\ \citenamefont {Macdonald}}]{Warren1963}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~B.}\ \bibnamefont
+  {Warren}}, \bibinfo {author} {\bibfnamefont {K.~L.}\ \bibnamefont {Erdman}},
+  \bibinfo {author} {\bibfnamefont {L.~P.}\ \bibnamefont {Robertson}}, \bibinfo
+  {author} {\bibfnamefont {D.~A.}\ \bibnamefont {Axen}},\ and\ \bibinfo
+  {author} {\bibfnamefont {J.~R.}\ \bibnamefont {Macdonald}},\ }\bibfield
+  {title} {\bibinfo {title} {{``Photodisintegration of He$^3$ near the
+  threshold''}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev.}\ }\textbf {\bibinfo {volume} {132}},\ \bibinfo {pages} {1691}
+  (\bibinfo {year} {1963})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ma}\ \emph {et~al.}(1997)\citenamefont {Ma},
+  \citenamefont {Karwowski}, \citenamefont {Brune}, \citenamefont {Ayer},
+  \citenamefont {Black}, \citenamefont {Blackmon},\ and\ \citenamefont
+  {Ludwig}}]{Ma1997}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Ma}}, \bibinfo {author} {\bibfnamefont {H.~J.}\ \bibnamefont {Karwowski}},
+  \bibinfo {author} {\bibfnamefont {C.~R.}\ \bibnamefont {Brune}}, \bibinfo
+  {author} {\bibfnamefont {Z.}~\bibnamefont {Ayer}}, \bibinfo {author}
+  {\bibfnamefont {T.~C.}\ \bibnamefont {Black}}, \bibinfo {author}
+  {\bibfnamefont {J.~C.}\ \bibnamefont {Blackmon}},\ and\ \bibinfo {author}
+  {\bibfnamefont {E.~J.}\ \bibnamefont {Ludwig}},\ }\bibfield  {title}
+  {\bibinfo {title} {{``Measurements of $^1$H($d$,$\gamma$)$^3$He and
+  $^2$H($p$,$\gamma$)$^3$He at very low energies''}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. C}\ }\textbf {\bibinfo
+  {volume} {55}},\ \bibinfo {pages} {588} (\bibinfo {year} {1997})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Schmid \textit{et al.}}}(1997)}]{Schmid1997}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~J.}\ \bibnamefont
+  {{Schmid \textit{et al.}}}},\ }\bibfield  {title} {\bibinfo {title} {{``The
+  $^2$H($p$,$\gamma$)$^3$He and $^1$H($d$,$\gamma$)$^3$He reactions below 80
+  keV''}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. C}\ }\textbf {\bibinfo {volume} {56}},\ \bibinfo {pages} {2565}
+  (\bibinfo {year} {1997})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Turkat \textit{et al.}}}(2021)}]{Turkat2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {{Turkat \textit{et al.}}}},\ }\bibfield  {title} {\bibinfo {title}
+  {{``Measurement of the $^2$H($p$,$\gamma$)$^3$He \textit{S} factor at
+  265-1094 keV''}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. C}\ }\textbf {\bibinfo {volume} {103}},\ \bibinfo {pages}
+  {045805} (\bibinfo {year} {2021})},\ \Eprint
+  {https://arxiv.org/abs/2104.06914} {arXiv:2104.06914 [nucl-ex]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Marcucci}\ \emph {et~al.}(2016)\citenamefont
+  {Marcucci}, \citenamefont {Mangano}, \citenamefont {Kievsky},\ and\
+  \citenamefont {Viviani}}]{Marcucci2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~E.}\ \bibnamefont
+  {Marcucci}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Mangano}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Kievsky}},\ and\ \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Viviani}},\ }\bibfield  {title}
+  {\bibinfo {title} {{``Implication of the proton-deuteron radiative capture
+  for Big Bang nucleosynthesis''}},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {PRL}\ }\textbf {\bibinfo {volume} {116}},\ \bibinfo
+  {pages} {102501} (\bibinfo {year} {2016})},\ \Eprint
+  {https://arxiv.org/abs/1510.07877} {arXiv:1510.07877 [nucl-th]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Pisanti}\ \emph {et~al.}(2021)\citenamefont
+  {Pisanti}, \citenamefont {Mangano}, \citenamefont {Miele},\ and\
+  \citenamefont {Mazzela}}]{Pisanti2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
+  {Pisanti}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Mangano}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Miele}},\ and\ \bibinfo
+  {author} {\bibfnamefont {P.}~\bibnamefont {Mazzela}},\ }\bibfield  {title}
+  {\bibinfo {title} {{``Primordial Deuterium after LUNA: concordances and error
+  budges''}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {JCAP}\ }\textbf {\bibinfo {volume} {04}},\ \bibinfo {pages} {020}},\ \Eprint
+  {https://arxiv.org/abs/2011.11537} {arXiv:2011.11537 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tumino}\ \emph {et~al.}(2014)\citenamefont {Tumino},
+  \citenamefont {Spartà}, \citenamefont {Spitaleri}, \citenamefont
+  {Mukhamedzhanov}, \citenamefont {Typel}, \citenamefont {Pizzone},
+  \citenamefont {Tognelli}, \citenamefont {Degl'Innocenti}, \citenamefont
+  {Burjan}, \citenamefont {Kroha}, \citenamefont {Hons}, \citenamefont
+  {La~Cognata}, \citenamefont {Lamia}, \citenamefont {Mrazek}, \citenamefont
+  {Piskor}, \citenamefont {Prada~Moroni}, \citenamefont {Rapisarda},
+  \citenamefont {Romano},\ and\ \citenamefont {Sergi}}]{Tumino2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Tumino}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Spartà}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Spitaleri}}, \bibinfo
+  {author} {\bibfnamefont {A.~M.}\ \bibnamefont {Mukhamedzhanov}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Typel}}, \bibinfo {author}
+  {\bibfnamefont {R.~G.}\ \bibnamefont {Pizzone}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {Tognelli}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Degl'Innocenti}}, \bibinfo {author}
+  {\bibfnamefont {V.}~\bibnamefont {Burjan}}, \bibinfo {author} {\bibfnamefont
+  {V.}~\bibnamefont {Kroha}}, \bibinfo {author} {\bibfnamefont
+  {Z.}~\bibnamefont {Hons}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {La~Cognata}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Lamia}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Mrazek}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Piskor}}, \bibinfo {author}
+  {\bibfnamefont {P.~G.}\ \bibnamefont {Prada~Moroni}}, \bibinfo {author}
+  {\bibfnamefont {G.~G.}\ \bibnamefont {Rapisarda}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Romano}},\ and\ \bibinfo {author}
+  {\bibfnamefont {M.~L.}\ \bibnamefont {Sergi}},\ }\bibfield  {title} {\bibinfo
+  {title} {{``New determination of the $^2$H($d$,$p$)$^3$H and
+  $^2$H($d$,$n$)$^3$He reaction rates at astrophysical energies''}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {ApJ}\ }\textbf
+  {\bibinfo {volume} {785}},\ \bibinfo {pages} {96} (\bibinfo {year}
+  {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{I\~nesta G\'omez}}\ \emph
+  {et~al.}(2017)\citenamefont {{I\~nesta G\'omez}}, \citenamefont {Iliadis},\
+  and\ \citenamefont {Coc}}]{Inesta2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {{\'A}.}~\bibnamefont
+  {{I\~nesta G\'omez}}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Iliadis}},\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Coc}},\
+  }\bibfield  {title} {\bibinfo {title} {{``Bayesian estimation of
+  thermonuclear reaction rates for deuterium+deuterium reactions''}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {ApJ}\ }\textbf
+  {\bibinfo {volume} {849}},\ \bibinfo {pages} {134} (\bibinfo {year}
+  {2017})},\ \Eprint {https://arxiv.org/abs/1710.01647} {arXiv:1710.01647
+  [astro-ph.IM]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Moscoso}\ \emph {et~al.}(2021)\citenamefont
+  {Moscoso}, \citenamefont {{de Souza}}, \citenamefont {Coc},\ and\
+  \citenamefont {Iliadis}}]{Moscoso2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Moscoso}}, \bibinfo {author} {\bibfnamefont {R.~S.}\ \bibnamefont {{de
+  Souza}}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Coc}},\ and\
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Iliadis}},\ }\bibfield
+  {title} {\bibinfo {title} {{``Bayesian estimation of the
+  D($p$,$\gamma$)$^3$He thermonuclear reaction rate''}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {ApJ}\ }\textbf {\bibinfo {volume}
+  {923}},\ \bibinfo {pages} {49} (\bibinfo {year} {2021})},\ \Eprint
+  {https://arxiv.org/abs/2109.00049} {arXiv:2109.00049} \BibitemShut {NoStop}%
 \end{thebibliography}%
